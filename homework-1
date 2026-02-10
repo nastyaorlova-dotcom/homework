@@ -1,8 +1,1 @@
-# задание 1
-name='Анастасия'
-lname='Орлова'
-age=19
-print('Реализация через f-string')
-print(f'Ваше имя: {name}, Фамилия: {lname}, Возраст:{age}')
-print('Реализация через format')
-print('Ваше имя: {}, Фамилия: {}, Возраст:{}'.format(name,lname,age))
+

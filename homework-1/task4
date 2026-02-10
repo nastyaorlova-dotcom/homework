@@ -1,1 +1,11 @@
-
+#задание 4
+while True:
+    n = input("Введите число:")
+    if n == "exit":
+        print("Выход из программы")
+        break
+    if n.lstrip('-').isdigit():
+        l = len(n.lstrip('-'))
+        print("цифр в числе", l)
+    else:
+        print("Ошибка")

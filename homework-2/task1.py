@@ -1,4 +1,3 @@
-
 text = input("Введите числа через пробел: ")
 items = text.split()
 s = int(input("Введите степень: "))
